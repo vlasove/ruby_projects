@@ -21,3 +21,12 @@ arr = Array["Bob", "Alex","Georg"]
 for a in arr
     puts(a +" is amazing man")
 end
+
+for j in 0..arr.length()-1
+    puts(arr[j])
+end
+
+#strange loop
+arr.each do |index|
+    puts(index)
+end
